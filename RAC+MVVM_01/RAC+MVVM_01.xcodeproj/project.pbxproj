@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1DDFE10CE53B68827C2B6E12 /* libPods-RAC+MVVM_01Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F88C9EEE814EFDF21B1F5C56 /* libPods-RAC+MVVM_01Tests.a */; };
+		4BB2E87EFFC867355B3763ED /* libPods-RAC+MVVM_01UITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B3556F9147D5CD4C0727AFD /* libPods-RAC+MVVM_01UITests.a */; };
 		58330FEB1E84AE1A0047B2D8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 58330FEA1E84AE1A0047B2D8 /* main.m */; };
 		58330FEE1E84AE1A0047B2D8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 58330FED1E84AE1A0047B2D8 /* AppDelegate.m */; };
 		58330FF11E84AE1A0047B2D8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58330FF01E84AE1A0047B2D8 /* ViewController.m */; };
@@ -15,6 +17,7 @@
 		58330FF91E84AE1A0047B2D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58330FF71E84AE1A0047B2D8 /* LaunchScreen.storyboard */; };
 		583310041E84AE1A0047B2D8 /* RAC_MVVM_01Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 583310031E84AE1A0047B2D8 /* RAC_MVVM_01Tests.m */; };
 		5833100F1E84AE1A0047B2D8 /* RAC_MVVM_01UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5833100E1E84AE1A0047B2D8 /* RAC_MVVM_01UITests.m */; };
+		9CBC8AFDBEB5A53C0081D32C /* libPods-RAC+MVVM_01.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E18D4337F63FA25092B4C40C /* libPods-RAC+MVVM_01.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0339AF3313F4F139E3F23D83 /* Pods-RAC+MVVM_01UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RAC+MVVM_01UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RAC+MVVM_01UITests/Pods-RAC+MVVM_01UITests.release.xcconfig"; sourceTree = "<group>"; };
+		060A65F8F23E6134CC10FB13 /* Pods-RAC+MVVM_01.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RAC+MVVM_01.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RAC+MVVM_01/Pods-RAC+MVVM_01.debug.xcconfig"; sourceTree = "<group>"; };
+		3974F3321294C7C53421CC7A /* Pods-RAC+MVVM_01Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RAC+MVVM_01Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RAC+MVVM_01Tests/Pods-RAC+MVVM_01Tests.release.xcconfig"; sourceTree = "<group>"; };
+		4B3556F9147D5CD4C0727AFD /* libPods-RAC+MVVM_01UITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RAC+MVVM_01UITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BD0B39DA49E10D72F0C08AE /* Pods-RAC+MVVM_01Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RAC+MVVM_01Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RAC+MVVM_01Tests/Pods-RAC+MVVM_01Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		58330FE61E84AE1A0047B2D8 /* RAC+MVVM_01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RAC+MVVM_01.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		58330FEA1E84AE1A0047B2D8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		58330FEC1E84AE1A0047B2D8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +59,10 @@
 		5833100A1E84AE1A0047B2D8 /* RAC+MVVM_01UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RAC+MVVM_01UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5833100E1E84AE1A0047B2D8 /* RAC_MVVM_01UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RAC_MVVM_01UITests.m; sourceTree = "<group>"; };
 		583310101E84AE1A0047B2D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BC89225D3C87C7FA9F06EA4 /* Pods-RAC+MVVM_01.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RAC+MVVM_01.release.xcconfig"; path = "Pods/Target Support Files/Pods-RAC+MVVM_01/Pods-RAC+MVVM_01.release.xcconfig"; sourceTree = "<group>"; };
+		AA7FBDFBC68F964490B715D6 /* Pods-RAC+MVVM_01UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RAC+MVVM_01UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RAC+MVVM_01UITests/Pods-RAC+MVVM_01UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E18D4337F63FA25092B4C40C /* libPods-RAC+MVVM_01.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RAC+MVVM_01.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F88C9EEE814EFDF21B1F5C56 /* libPods-RAC+MVVM_01Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RAC+MVVM_01Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9CBC8AFDBEB5A53C0081D32C /* libPods-RAC+MVVM_01.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DDFE10CE53B68827C2B6E12 /* libPods-RAC+MVVM_01Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +86,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4BB2E87EFFC867355B3763ED /* libPods-RAC+MVVM_01UITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2FE2DCDAACB7B1BCC334DE0C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E18D4337F63FA25092B4C40C /* libPods-RAC+MVVM_01.a */,
+				F88C9EEE814EFDF21B1F5C56 /* libPods-RAC+MVVM_01Tests.a */,
+				4B3556F9147D5CD4C0727AFD /* libPods-RAC+MVVM_01UITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		58330FDD1E84AE190047B2D8 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +110,8 @@
 				583310021E84AE1A0047B2D8 /* RAC+MVVM_01Tests */,
 				5833100D1E84AE1A0047B2D8 /* RAC+MVVM_01UITests */,
 				58330FE71E84AE1A0047B2D8 /* Products */,
+				751CAD3894E8F10ED4EF3516 /* Pods */,
+				2FE2DCDAACB7B1BCC334DE0C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -140,6 +167,19 @@
 			path = "RAC+MVVM_01UITests";
 			sourceTree = "<group>";
 		};
+		751CAD3894E8F10ED4EF3516 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				060A65F8F23E6134CC10FB13 /* Pods-RAC+MVVM_01.debug.xcconfig */,
+				7BC89225D3C87C7FA9F06EA4 /* Pods-RAC+MVVM_01.release.xcconfig */,
+				4BD0B39DA49E10D72F0C08AE /* Pods-RAC+MVVM_01Tests.debug.xcconfig */,
+				3974F3321294C7C53421CC7A /* Pods-RAC+MVVM_01Tests.release.xcconfig */,
+				AA7FBDFBC68F964490B715D6 /* Pods-RAC+MVVM_01UITests.debug.xcconfig */,
+				0339AF3313F4F139E3F23D83 /* Pods-RAC+MVVM_01UITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +187,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 583310131E84AE1A0047B2D8 /* Build configuration list for PBXNativeTarget "RAC+MVVM_01" */;
 			buildPhases = (
+				4D4ECEA4E74D01EC60F94A75 /* [CP] Check Pods Manifest.lock */,
 				58330FE21E84AE190047B2D8 /* Sources */,
 				58330FE31E84AE190047B2D8 /* Frameworks */,
 				58330FE41E84AE190047B2D8 /* Resources */,
+				F968474E5501111A43EDA5E4 /* [CP] Embed Pods Frameworks */,
+				A178536442C7D3047CAB9D9E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +207,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 583310161E84AE1A0047B2D8 /* Build configuration list for PBXNativeTarget "RAC+MVVM_01Tests" */;
 			buildPhases = (
+				860D6A212548D90E458DFE8D /* [CP] Check Pods Manifest.lock */,
 				58330FFB1E84AE1A0047B2D8 /* Sources */,
 				58330FFC1E84AE1A0047B2D8 /* Frameworks */,
 				58330FFD1E84AE1A0047B2D8 /* Resources */,
+				CABB72691AF66CEBDF245105 /* [CP] Embed Pods Frameworks */,
+				CA2AB5CCED8277E94BA276A1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +228,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 583310191E84AE1A0047B2D8 /* Build configuration list for PBXNativeTarget "RAC+MVVM_01UITests" */;
 			buildPhases = (
+				D9F2ECA65B2682E70538604E /* [CP] Check Pods Manifest.lock */,
 				583310061E84AE1A0047B2D8 /* Sources */,
 				583310071E84AE1A0047B2D8 /* Frameworks */,
 				583310081E84AE1A0047B2D8 /* Resources */,
+				6CD22834FEBA3B664C4CD19E /* [CP] Embed Pods Frameworks */,
+				9A834641D4D7E72210275A91 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -267,6 +316,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4D4ECEA4E74D01EC60F94A75 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6CD22834FEBA3B664C4CD19E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RAC+MVVM_01UITests/Pods-RAC+MVVM_01UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		860D6A212548D90E458DFE8D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9A834641D4D7E72210275A91 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RAC+MVVM_01UITests/Pods-RAC+MVVM_01UITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A178536442C7D3047CAB9D9E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RAC+MVVM_01/Pods-RAC+MVVM_01-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA2AB5CCED8277E94BA276A1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RAC+MVVM_01Tests/Pods-RAC+MVVM_01Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CABB72691AF66CEBDF245105 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RAC+MVVM_01Tests/Pods-RAC+MVVM_01Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9F2ECA65B2682E70538604E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F968474E5501111A43EDA5E4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RAC+MVVM_01/Pods-RAC+MVVM_01-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		58330FE21E84AE190047B2D8 /* Sources */ = {
@@ -420,6 +607,7 @@
 		};
 		583310141E84AE1A0047B2D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 060A65F8F23E6134CC10FB13 /* Pods-RAC+MVVM_01.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -433,6 +621,7 @@
 		};
 		583310151E84AE1A0047B2D8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BC89225D3C87C7FA9F06EA4 /* Pods-RAC+MVVM_01.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -446,6 +635,7 @@
 		};
 		583310171E84AE1A0047B2D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BD0B39DA49E10D72F0C08AE /* Pods-RAC+MVVM_01Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "RAC+MVVM_01Tests/Info.plist";
@@ -458,6 +648,7 @@
 		};
 		583310181E84AE1A0047B2D8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3974F3321294C7C53421CC7A /* Pods-RAC+MVVM_01Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "RAC+MVVM_01Tests/Info.plist";
@@ -470,6 +661,7 @@
 		};
 		5833101A1E84AE1A0047B2D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA7FBDFBC68F964490B715D6 /* Pods-RAC+MVVM_01UITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = "RAC+MVVM_01UITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -481,6 +673,7 @@
 		};
 		5833101B1E84AE1A0047B2D8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0339AF3313F4F139E3F23D83 /* Pods-RAC+MVVM_01UITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = "RAC+MVVM_01UITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -509,6 +702,7 @@
 				583310151E84AE1A0047B2D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		583310161E84AE1A0047B2D8 /* Build configuration list for PBXNativeTarget "RAC+MVVM_01Tests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +711,7 @@
 				583310181E84AE1A0047B2D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		583310191E84AE1A0047B2D8 /* Build configuration list for PBXNativeTarget "RAC+MVVM_01UITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +720,7 @@
 				5833101B1E84AE1A0047B2D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

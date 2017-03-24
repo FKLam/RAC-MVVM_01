@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import <RACSignal.h>
 
 @interface ViewController ()
 
@@ -16,13 +17,14 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    [self test_RACSignal];
 }
 
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+// RACSignal
+- (void)test_RACSignal {
+    
 }
 
 
